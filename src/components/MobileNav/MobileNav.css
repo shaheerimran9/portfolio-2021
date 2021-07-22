@@ -1,0 +1,41 @@
+.mobile-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2196F3;
+    z-index: 999;
+}
+
+.mobile-nav__toggle {
+    cursor: pointer;
+    position: absolute;
+    top: 9%;
+    right: 10%;
+    color: #ffffff;
+    font-size: 4rem;
+}
+
+.mobile-nav__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+.mobile-nav__links li a {
+    display: block;
+    color: #ffffff;
+    margin: 2rem 0;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+@media (min-width: 740px) {
+    .mobile-nav {
+        display: none;
+    }
+}

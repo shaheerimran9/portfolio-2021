@@ -1,10 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+import Navbar from './components/Navbar/Navbar';
+
 import './index.css';
 
 const App = () => {
   return (
-    <h1>Shaheer Imran</h1>
+    <Router>
+      <Navbar />
+    </Router>
   );
 };
 

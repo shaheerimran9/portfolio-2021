@@ -15,9 +15,8 @@ const Navbar = () => {
     return (
         <header className="main-header">
             <nav className="main-nav">
-                <Link to="/" className="main-nav__img-wrapper">
-                    <img src="/img/nav-image.png" alt="person waving" className="img-wrapper__img" />
-                    <h2 className="img-wrapper__title">Shaheer Imran</h2>
+                <Link to="/">
+                    <h2 className="main-nav__title">Shaheer Imran</h2>
                 </Link>
                 <ul className="main-nav__links">
                     <li>

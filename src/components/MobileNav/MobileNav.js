@@ -14,10 +14,10 @@ const MobileNav = (props) => {
             <i className="fas fa-times mobile-nav__toggle" onClick={handleClick}></i>
             <ul className="mobile-nav__links">
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/" onClick={handleClick}>Home</Link>
                 </li>
                 <li>
-                    <Link to="/projects">Projects</Link>
+                    <Link to="/projects" onClick={handleClick}>Projects</Link>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/shaheerimran">

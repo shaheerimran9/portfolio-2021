@@ -1,0 +1,109 @@
+.home-about {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.home-about__details {
+    flex: 1;
+    margin-right: 5rem;
+}
+
+.details__introduction {
+    color: #383c41;
+    font-size: 2rem;
+    line-height: 3.75rem;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+}
+
+.details__technologies-heading {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    line-height: 3.75rem;
+}
+
+.details__technologies-list {
+    list-style-position: inside;
+}
+
+.details__technologies-list li {
+    font-size: 1.85rem;
+    margin: 2.25rem 0;
+    font-weight: bold;
+}
+
+.details__technologies-list li i {
+    margin-left: 1.5rem;
+    font-size: 3rem;
+}
+
+.fa-html5 {
+    color: #DD4B26;
+}
+
+.fa-css3-alt {
+    color: #146EB0;
+}
+
+.fa-js {
+    color: #EFD81D;
+}
+
+.fa-react {
+    color: #01D0F7;
+}
+
+.fa-git-alt {
+    color: #E94E31;
+}
+
+.details__btn {
+    display: inline-block;
+    cursor: pointer;
+    background: #0091EA;
+    color: #ffffff;
+    border: none;
+    border-radius: .3rem;
+    padding: 1.5rem 2rem;
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    transition: transform .3s ease;
+    text-decoration: none;
+}
+
+.details__btn:active {
+    transform: translateY(10px);
+}
+
+.home-about__image {
+    background: url('/src/img/shaheer.jpeg') center center/cover;
+    flex: .8;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+@media (max-width: 740px) {
+    .home-about {
+        flex-direction: column-reverse;
+    }
+
+    .home-about__details {
+        flex: initial;
+        margin: 0;
+    }
+    
+    .details__introduction {
+        font-size: 1.75rem;
+    }
+
+    .details__technologies-heading {
+        font-size: 2rem;
+    }
+
+    .home-about__image {
+        height: 30rem;
+        flex: initial;
+        margin-bottom: 2rem;
+    }
+}

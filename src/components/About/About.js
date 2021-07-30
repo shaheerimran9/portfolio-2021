@@ -4,7 +4,7 @@ import './About.css';
 
 const About = () => {
     return (
-        <section className="home-about">
+        <section className="home-about" id="about">
             <div className="home-about__details">
                 <p className="details__introduction">It's nice to meet you! I'm an aspiring web developer based in Richmond, VA. I enjoy developing modern websites that utilize the latest technologies.</p>
                 <h3 className="details__technologies-heading">Here are some of the technologies I have been utilizing recently:</h3>

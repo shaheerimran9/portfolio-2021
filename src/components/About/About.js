@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './About.css';
 
@@ -31,6 +32,7 @@ const About = () => {
                     </li>
                 </ul>
                 <a href="mailto:shaheerimran@icloud.com" className="details__btn">Contact Me</a>
+                <Link to="/projects" className="details__btn btn-attention">View My Work</Link>
             </div>
             <div className="home-about__image"></div>
         </section>

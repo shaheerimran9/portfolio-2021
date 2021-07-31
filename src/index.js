@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import Landing from './components/Landing/Landing';
 import Container from './components/Container/Container';
 import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 
 import './index.css';
 
@@ -17,6 +18,7 @@ const App = () => {
       <Container >
         <About />
       </Container>
+      <Footer />
     </Router>
   );
 };

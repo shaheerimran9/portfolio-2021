@@ -8,6 +8,7 @@ import Container from './components/Container/Container';
 import About from './components/About/About';
 import Project from './components/Project/Project';
 import royalraja from './img/royalraja.png';
+import skyline from './img/skyline.png'
 import movieSurfer from './img/moviesurfer.png';
 import Footer from './components/Footer/Footer';
 
@@ -34,11 +35,19 @@ const App = () => {
               title="Royal Raja"
               description="A modern restaurant website."
               imgSrc={royalraja}
-              hrefSite="https://shaheer-royalraja.netlify.app/"
+              hrefSite="http://royalraja.com.s3-website-us-east-1.amazonaws.com/"
               hrefCode="https://github.com/shaheerimran9/royal-raja"
             />
             <Project
-              background={"linear-gradient(300deg,  rgba(255,196,254,1) 9.6%, rgba(251,229,123,1) 91%)"}
+              background={"linear-gradient(to top, #045de9 0%, #09c6f9 74%)"}
+              title="Skyline"
+              description="A weather webapp."
+              imgSrc={skyline}
+              hrefSite="https://shaheer-skyline.netlify.app/"
+              hrefCode="https://github.com/shaheerimran9/skyline"
+            />
+            <Project
+              background={"linear-gradient(300deg, rgba(255,196,254,1) 9.6%, rgba(251,229,123,1) 91%)"}
               title="Movie Surfer"
               description="A movie database website."
               imgSrc={movieSurfer}
